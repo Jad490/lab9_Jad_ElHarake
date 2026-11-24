@@ -1,0 +1,82 @@
+[
+  {
+    "filename": "01_before_cprofile.png",
+    "stage": "before",
+    "phase": "cprofile",
+    "method": "native_screenshot_live_terminal",
+    "sha256": "20ca14de800344b7c6bab5f19b9f8532e97378d126e26bf2b79c83a2eabd61df",
+    "verification": "Original saved CUA screenshot; manifest reconciled after session-variable reset."
+  },
+  {
+    "filename": "02_after_cprofile.png",
+    "stage": "after",
+    "phase": "cprofile",
+    "method": "native_screenshot_live_terminal",
+    "sha256": "3837310830cf7fcc0eace8db5426efc6777a6a974f40b7699329f7413e341731",
+    "verification": "Original saved CUA screenshot; manifest reconciled after session-variable reset."
+  },
+  {
+    "filename": "03_before_line_profiler.png",
+    "stage": "before",
+    "phase": "line_profiler",
+    "method": "native_screenshot_live_terminal",
+    "sha256": "a55d4a9ba2384ab10cc29d1be6b33a3ea462c3965e7aa8e2038ce45370c79a9d",
+    "verification": "Original saved CUA screenshot; manifest reconciled after session-variable reset."
+  },
+  {
+    "filename": "04_after_line_profiler.png",
+    "stage": "after",
+    "phase": "line_profiler",
+    "method": "native_screenshot_live_terminal",
+    "sha256": "5beffa0d3ab58887970a543c79a7bc2e1fa209ee85bf3c880d153f7dd5a4444b",
+    "verification": "Original saved CUA screenshot; manifest reconciled after session-variable reset."
+  },
+  {
+    "filename": "05_before_tests.png",
+    "stage": "before",
+    "phase": "tests",
+    "method": "native_screenshot_live_terminal",
+    "sha256": "5b7b4f2fb6aca8dc27bd715262631d898d95983adc4cf3fc2391f5c9688ea7d6",
+    "verification": "Original saved CUA screenshot; manifest reconciled after session-variable reset."
+  },
+  {
+    "filename": "06_after_tests.png",
+    "stage": "after",
+    "phase": "tests",
+    "method": "native_screenshot_live_terminal",
+    "sha256": "ea7c19f16dec40e988fe697d0af6cb73ace36752e620ca444e5f840b4f0752b8",
+    "verification": "Original saved CUA screenshot; manifest reconciled after session-variable reset."
+  },
+  {
+    "filename": "07_before_coverage.png",
+    "stage": "before",
+    "phase": "coverage",
+    "method": "native_screenshot_live_terminal",
+    "sha256": "912adfda7c07c657341a243ef16257854ddeba9532800626480262f187661fe3",
+    "verification": "Original saved CUA screenshot; manifest reconciled after session-variable reset."
+  },
+  {
+    "filename": "08_after_coverage.png",
+    "stage": "after",
+    "phase": "coverage",
+    "method": "native_screenshot_live_terminal",
+    "sha256": "977bb00a07ff8dd43b4ac75a8a4f1544ac39db21a89c5dfa5cf7afef11f34a80",
+    "verification": "Original saved CUA screenshot; manifest reconciled after session-variable reset."
+  },
+  {
+    "filename": "09_before_memory_profiler.png",
+    "stage": "before",
+    "phase": "memory_profiler",
+    "method": "native_screenshot_live_terminal",
+    "sha256": "4fafd36fafbfa0abf672f99586a006dfe1fdad6d8e900b10a2926a1f8fd2de8a",
+    "verification": "Original saved CUA screenshot; manifest reconciled after session-variable reset."
+  },
+  {
+    "filename": "10_after_memory_profiler.png",
+    "stage": "after",
+    "phase": "memory_profiler",
+    "method": "native_screenshot_live_terminal",
+    "sha256": "c93f6f2be3f74f9233ade1d441d44ea78cda884058e0e45b352333029c85c34d",
+    "verification": "Original saved CUA screenshot; manifest reconciled after session-variable reset."
+  }
+]

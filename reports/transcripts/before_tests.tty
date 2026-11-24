@@ -1,0 +1,20 @@
+python test_profiler.py
+fast_function executed in 0.00 seconds.
+.memory_intensive_function executed in 0.98 seconds.
+Memory usage before: 23.34 MiB, after: 23.34 MiB.
+Fslow_function executed in 2.01 seconds.
+.
+======================================================================
+FAIL: test_memory_intensive_function (__main__.TestProfiler)
+Test the memory_intensive_function and monitor memory usage.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jadelharake/Desktop/EECE 435L/Lab9/lab9_Jad_ElHarake/before/test_profiler.py", line 35, in test_memory_intensive_function
+    self.assertGreater(mem_usage_after[0], mem_usage_before[0], "Memory usage should increase after running memory_intensive_function.")
+AssertionError: 23.34375 not greater than 23.34375 : Memory usage should increase after running memory_intensive_function.
+
+----------------------------------------------------------------------
+Ran 3 tests in 3.207s
+
+FAILED (failures=1)
+lab9_Jad_ElHarake/before [exit=1] $ 

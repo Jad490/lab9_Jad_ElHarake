@@ -1,0 +1,8 @@
+{
+  "command": "coverage run -m unittest discover",
+  "cwd": "lab9_Jad_ElHarake/after",
+  "exit_code": 1,
+  "wall_seconds": 3.712173417,
+  "timestamp_utc": "2026-11-20T18:20:48.579245+00:00",
+  "capture": "live PTY in browser; native screenshot captured separately"
+}

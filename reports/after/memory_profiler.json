@@ -1,0 +1,8 @@
+{
+  "command": "python -m memory_profiler profiler_memoryprofiler.py",
+  "cwd": "lab9_Jad_ElHarake/after",
+  "exit_code": 0,
+  "wall_seconds": 278.209274291,
+  "timestamp_utc": "2026-11-20T22:01:07.179363+00:00",
+  "capture": "live PTY in browser; native screenshot captured separately"
+}

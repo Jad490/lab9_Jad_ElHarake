@@ -1,0 +1,3 @@
+coverage json -o ../reports/after/coverage.json
+Wrote JSON report to ../reports/after/coverage.json
+lab9_Jad_ElHarake/after [exit=0] $ 

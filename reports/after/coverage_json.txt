@@ -1,0 +1,1 @@
+Wrote JSON report to ../reports/after/coverage.json

@@ -1,0 +1,8 @@
+{
+  "command": "python -m cProfile -s time profiler.py",
+  "cwd": "lab9_Jad_ElHarake/after",
+  "exit_code": 0,
+  "wall_seconds": 3.0394578749999823,
+  "timestamp_utc": "2026-11-20T18:15:53.068681+00:00",
+  "capture": "live PTY in browser; native screenshot captured separately"
+}

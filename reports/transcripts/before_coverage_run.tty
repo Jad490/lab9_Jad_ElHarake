@@ -1,0 +1,20 @@
+coverage run -m unittest discover
+fast_function executed in 0.00 seconds.
+.memory_intensive_function executed in 1.34 seconds.
+Memory usage before: 29.44 MiB, after: 29.44 MiB.
+Fslow_function executed in 2.01 seconds.
+.
+======================================================================
+FAIL: test_memory_intensive_function (test_profiler.TestProfiler)
+Test the memory_intensive_function and monitor memory usage.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jadelharake/Desktop/EECE 435L/Lab9/lab9_Jad_ElHarake/before/test_profiler.py", line 35, in test_memory_intensive_function
+    self.assertGreater(mem_usage_after[0], mem_usage_before[0], "Memory usage should increase after running memory_intensive_function.")
+AssertionError: 29.4375 not greater than 29.4375 : Memory usage should increase after running memory_intensive_function.
+
+----------------------------------------------------------------------
+Ran 3 tests in 3.564s
+
+FAILED (failures=1)
+lab9_Jad_ElHarake/before [exit=1] $ 

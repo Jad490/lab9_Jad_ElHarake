@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "meaning": "Handout fidelity and artifact checks passed; supplied test outcomes remain separate.",
+  "checks": [
+    "before: original workloads, exact example, three supplied tests/thresholds/assertions, default coverage, real outputs, HTML assets",
+    "after: original workloads, exact example, three supplied tests/thresholds/assertions, default coverage, real outputs, HTML assets",
+    "Ten native live-terminal screenshots and one Word document with measured outputs and analysis"
+  ],
+  "supplied_test_outcomes": {
+    "before/tests": {
+      "exit_code": 1,
+      "reported_as": "FAIL"
+    },
+    "before/coverage_run": {
+      "exit_code": 1,
+      "reported_as": "FAIL"
+    },
+    "after/tests": {
+      "exit_code": 1,
+      "reported_as": "FAIL"
+    },
+    "after/coverage_run": {
+      "exit_code": 1,
+      "reported_as": "FAIL"
+    }
+  },
+  "report_sha256": "afcb3a4ee4368c573a195eec8ca72d956f370350ce808774e241d05a178bace1"
+}

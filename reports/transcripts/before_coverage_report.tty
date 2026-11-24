@@ -1,0 +1,8 @@
+coverage report -m
+Name               Stmts   Miss  Cover   Missing
+------------------------------------------------
+profiler.py           23      4    83%   27-29, 33
+test_profiler.py      30      2    93%   39, 43
+------------------------------------------------
+TOTAL                 53      6    89%
+lab9_Jad_ElHarake/before [exit=0] $ 

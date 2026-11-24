@@ -1,0 +1,19 @@
+python -m cProfile -s time profiler.py
+         110 function calls in 3.004 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    2.005    2.005    2.005    2.005 {built-in method time.sleep}
+        1    0.993    0.993    0.993    0.993 profiler.py:16(memory_intensive_function)
+        1    0.006    0.006    2.011    2.011 profiler.py:4(slow_function)
+      101    0.000    0.000    0.000    0.000 profiler.py:13(<genexpr>)
+        1    0.000    0.000    0.000    0.000 profiler.py:12(optimized_fast_function)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+        1    0.000    0.000    3.004    3.004 profiler.py:23(main)
+        1    0.000    0.000    3.004    3.004 profiler.py:1(<module>)
+        1    0.000    0.000    3.004    3.004 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+lab9_Jad_ElHarake/after [exit=0] $ 

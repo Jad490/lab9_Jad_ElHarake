@@ -1,0 +1,8 @@
+{
+  "command": "coverage report -m",
+  "cwd": "lab9_Jad_ElHarake/before",
+  "exit_code": 0,
+  "wall_seconds": 0.06837908300008166,
+  "timestamp_utc": "2026-11-20T18:18:53.032500+00:00",
+  "capture": "live PTY in browser; native screenshot captured separately"
+}

@@ -1,0 +1,8 @@
+{
+  "command": "python test_profiler.py",
+  "cwd": "lab9_Jad_ElHarake/after",
+  "exit_code": 1,
+  "wall_seconds": 3.282440749999978,
+  "timestamp_utc": "2026-11-20T18:18:26.717601+00:00",
+  "capture": "live PTY in browser; native screenshot captured separately"
+}

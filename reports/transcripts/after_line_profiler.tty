@@ -1,0 +1,38 @@
+python profiler_lineprofiler.py
+Timer unit: 1e-09 s
+
+Total time: 2.01338 s
+File: /Users/jadelharake/Desktop/EECE 435L/Lab9/lab9_Jad_ElHarake/after/profiler_lineprofiler.py
+Function: slow_function at line 14
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    14                                           def slow_function():
+    15         1 2005036000.0 2.01e+09     99.6      time.sleep(2)
+    16         1       4000.0   4000.0      0.0      total = 0
+    17     10001    1986000.0    198.6      0.1      for i in range(10000):
+    18     10000    6358000.0    635.8      0.3          total += i ** 2
+    19         1       1000.0   1000.0      0.0      return total
+
+Total time: 6e-05 s
+File: /Users/jadelharake/Desktop/EECE 435L/Lab9/lab9_Jad_ElHarake/after/profiler_lineprofiler.py
+Function: optimized_fast_function at line 22
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    22                                           def optimized_fast_function():
+    23         1      60000.0  60000.0    100.0      return sum(i**2 for i in range(100))
+
+Total time: 1.7482 s
+File: /Users/jadelharake/Desktop/EECE 435L/Lab9/lab9_Jad_ElHarake/after/profiler_lineprofiler.py
+Function: memory_intensive_function at line 26
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    26                                           def memory_intensive_function():
+    27         1          0.0      0.0      0.0      total = 0
+    28  10000001  360498000.0     36.0     20.6      for i in range(10000000):
+    29  10000000 1387701000.0    138.8     79.4          total += i ** 2
+    30         1          0.0      0.0      0.0      return total
+
+lab9_Jad_ElHarake/after [exit=0] $ 

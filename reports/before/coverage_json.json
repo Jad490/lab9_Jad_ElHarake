@@ -1,0 +1,8 @@
+{
+  "command": "coverage json -o ../reports/before/coverage.json",
+  "cwd": "lab9_Jad_ElHarake/before",
+  "exit_code": 0,
+  "wall_seconds": 0.05439591599997584,
+  "timestamp_utc": "2026-11-20T18:18:53.150006+00:00",
+  "capture": "live PTY in browser; native screenshot captured separately"
+}
